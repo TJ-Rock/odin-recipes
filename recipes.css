@@ -1,0 +1,14 @@
+button {
+    color: blue;
+    background-color:rgb(255, 255, 21);
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma;
+}
+
+p {
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma;
+}
