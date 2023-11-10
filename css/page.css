@@ -13,12 +13,28 @@ p {
     font-family: Verdana, Geneva, Tahoma;
 }
 
-div {
+/*div {
     padding: 15px;
     margin-left: 800px;
     margin-right: 800px;
     margin-bottom: px;
-    border: 30px;
+    border: 30px black;
     text-align: center;
     background-color: rgb(133, 133, 163);
+} */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container div {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma;
+    font-weight: bolder;
+    height: 60px;
+    flex: 1 1 auto;
+    height: 100px;
+    border: 30px black;
+    text-align: center;
 }
